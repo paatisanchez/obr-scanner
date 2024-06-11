@@ -64,3 +64,7 @@ This tool allows you to compare the content of two documents (.docx or .txt) and
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact:
+
+- For any inquiries or issues, feel free to reach out to ic23x001@technikum-wien.at
