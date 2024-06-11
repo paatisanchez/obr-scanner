@@ -71,6 +71,8 @@ repository.
 
 ## Usage
 
+### OBR Scanner
+
 Run the script:
 
    ```bash
@@ -80,6 +82,11 @@ Run the script:
 The file app.py has to be inside the [AngelinaReader](https://github.com/IlyaOvodov/AngelinaReader) repository,
 otherwise it doesn't work
 
+### Document Comparison
+- The **compare-documents** folder houses essential tools for comparing scanned documents with their original versions.     
+- This functionality enables users to evaluate the accuracy of the scanning process by identifying disparities between the scanned and original documents.     
+- For detailed instructions on utilizing these tools, please refer to the corresponding README within the [compare-documents](/compare-document/README.md) folder.
+
 ## Configuration
 
 Modify the `watch_directory` variable in the script to specify the directory to monitor.
@@ -87,7 +94,7 @@ Adjust the `language` variable and the script command in the `Handler` class to 
 
 ## Notes
 
-This script assumes a Unix-like environment.\
+This script assumes a Unix-like environment.
 If your operating system is windows set up the environment variable accordingly.
 
 ## Contributing
