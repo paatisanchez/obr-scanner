@@ -64,4 +64,3 @@ This tool allows you to compare the content of two documents (.docx or .txt) and
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
