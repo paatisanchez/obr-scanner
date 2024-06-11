@@ -85,7 +85,7 @@ otherwise it doesn't work
 ### Document Comparison
 - The **compare-documents** folder houses essential tools for comparing scanned documents with their original versions.     
 - This functionality enables users to evaluate the accuracy of the scanning process by identifying disparities between the scanned and original documents.     
-- For detailed instructions on utilizing these tools, please refer to the corresponding README within the [compare-documents](/compare-document/README.md) folder.
+- For detailed instructions on utilizing these tools, please refer to the corresponding README within the [compare-documents](/compare-documents/README.md) folder.
 
 ## Configuration
 
