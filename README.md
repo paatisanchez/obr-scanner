@@ -62,12 +62,11 @@ repository.
    ```
 
 2. Set the `scanner_exe` environment variable:
-    - Specify the path to the scanner software executable in the environment variable. \
-      For example:
-
-   ```bash
-   export scanner_exe=/path/to/scanner/executable
-   ```
+    - Specify the path to the scanner software executable in the environment variable.
+       - Open Command Prompt with administrative privileges:
+  ```cmd
+  setx scanner_exe "C:\path\to\scanner.exe"
+  ```
 
 ## Usage
 
