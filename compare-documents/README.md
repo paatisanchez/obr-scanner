@@ -1,6 +1,8 @@
 
 # Document Comparison Tool
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 This tool allows you to compare the content of two documents (.docx or .txt) and shows the differences between them. It also calculates an accuracy percentage indicating how similar the two documents are.
 
 ## Differences Key
