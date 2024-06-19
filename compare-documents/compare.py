@@ -3,7 +3,6 @@ import difflib
 from tkinter import Tk, Label, Button, filedialog, Text
 from docx import Document
 
-
 def read_document(path):
     """Reads the content of a document given its path."""
     if path.endswith('.docx'):
@@ -12,12 +11,11 @@ def read_document(path):
         for para in doc.paragraphs:
             full_text.append(para.text)
         return '\n'.join(full_text)
-    elif path.endswith('.txt') or path.endswith('.brf'):
+    elif path.endswith('.txt') or path.endswith('.brl'):
         with open(path, 'r', encoding='utf-8') as file:
             return file.read()
     else:
         raise ValueError("Unsupported file format")
-
 
 def compare_documents(doc1, doc2):
     """Compares the content of two documents and shows the differences."""
@@ -25,30 +23,25 @@ def compare_documents(doc1, doc2):
     diff = list(d.compare(doc1.splitlines(), doc2.splitlines()))
     return '\n'.join(diff)
 
-
 def calculate_accuracy(doc1, doc2):
     """Calculates the accuracy percentage between two documents."""
     matcher = difflib.SequenceMatcher(None, doc1, doc2)
     return matcher.ratio() * 100
-
 
 def truncate_to_match_length(doc1, doc2):
     """Truncates the longer document to match the length of the shorter document."""
     min_length = min(len(doc1), len(doc2))
     return doc1[:min_length], doc2[:min_length], len(doc1) != len(doc2)
 
-
 def select_file1():
     global file1_path
-    file1_path = filedialog.askopenfilename(filetypes=[("Document Files", "*.docx *.txt *.brf")])
+    file1_path = filedialog.askopenfilename(filetypes=[("Document Files", "*.docx *.txt *.brl")])
     label_file1.config(text="File 1: " + file1_path)
-
 
 def select_file2():
     global file2_path
-    file2_path = filedialog.askopenfilename(filetypes=[("Document Files", "*.docx *.txt *.brf")])
+    file2_path = filedialog.askopenfilename(filetypes=[("Document Files", "*.docx *.txt *.brl")])
     label_file2.config(text="File 2: " + file2_path)
-
 
 def run_comparison():
     # Read the documents
@@ -80,9 +73,8 @@ def run_comparison():
     else:
         print(f"Accuracy: {accuracy:.2f}%")
 
-
 def main():
-    parser = argparse.ArgumentParser(description="Compare two documents (.docx, .txt, or .brf) and show the differences.")
+    parser = argparse.ArgumentParser(description="Compare two documents (.docx, .txt, or .brl) and show the differences.")
     parser.add_argument("file1", nargs='?', help="Path to the first document file.")
     parser.add_argument("file2", nargs='?', help="Path to the second document file.")
     args = parser.parse_args()
@@ -104,7 +96,7 @@ def main():
 
         global label_file1, label_file2
 
-        label_instructions = Label(root, text="Select two documents (.docx, .txt, or .brf) to compare")
+        label_instructions = Label(root, text="Select two documents (.docx, .txt, or .brl) to compare")
         label_instructions.pack()
 
         label_file1 = Label(root, text="File 1: Not selected")
@@ -133,7 +125,6 @@ def main():
 
         # Run the GUI event loop
         root.mainloop()
-
 
 if __name__ == "__main__":
     main()
