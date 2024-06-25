@@ -69,7 +69,7 @@ Sure, here's the revised README section including your specific usage recommenda
 
 ## Usage Recommendation
 
-We recommend using the template provided in the [Template](/compare-documents/Template) folder to check the scanning accuracy at a given moment. This document provides a perfect braille translation from the first page of the book: *add*. 
+We recommend using the template provided in the [Templates](/compare-documents/Templates) folder to check the scanning accuracy at a given moment. This document provides a perfect braille translation from the first page of the book: *add*. 
 
 ### Steps to Check Scanning Accuracy
 
