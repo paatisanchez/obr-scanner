@@ -69,7 +69,7 @@ Sure, here's the revised README section including your specific usage recommenda
 
 ## Usage Recommendation
 
-We recommend using the template provided in the [Templates](/compare-documents/Templates) folder to check the scanning accuracy at a given moment. This document provides a perfect braille translation from the first page of the book: *add*. 
+We recommend using the template provided in the [Templates](/compare-documents/Templates) folder to check the scanning accuracy at a given moment. This document provides a perfect braille translation from the first page of the book: *Letters, Volume 13 by Theodor Billroth (German version)*. 
 
 ### Steps to Check Scanning Accuracy
 
@@ -80,7 +80,7 @@ We recommend using the template provided in the [Templates](/compare-documents/T
    - Ensure your scanner is properly connected and that the scanning software is configured with the settings you wish to test.
 
 3. **Scan the First Page of the Book:**
-   - Place the first page of the book *add* on your scanner.
+   - Place the first page of the book *Letters, Volume 13 by Theodor Billroth (German version)* on your scanner.
    - Initiate the scan using CZUR, ensuring all settings are applied as intended.
 
 4. **Save the Scanned Document:**
