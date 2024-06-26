@@ -61,9 +61,7 @@ This tool allows you to compare the content of two documents (.brl, .docx or .tx
 
 4. **Use the GUI**
 
-   A GUI window will open. Click on "Select File 1" and "Select File 2" to choose the `.brl`, `.docx` or `.txt` files you want to compare. After selecting the files, click "Compare Documents" to see the differences and accuracy.
-
-Sure, here's the revised README section including your specific usage recommendation:
+   A GUI window will open. Click on "Select File 1" and "Select File 2" to choose the `.brl`, `.docx` or `.txt` files you want to compare. After selecting the files, click "Compare Documents" to see the differences 
 
 ---
 
