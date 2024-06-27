@@ -86,6 +86,26 @@ otherwise it doesn't work
 - This functionality enables users to evaluate the accuracy of the scanning process by identifying disparities between the scanned and original documents.     
 - For detailed instructions on utilizing these tools, please refer to the corresponding README within the [compare-documents](/compare-documents/README.md) folder.
 
+## Accesibility 
+
+### CZUR Accesibility
+
+- For Mac users:
+    - **VoiceOver**: The integrated screen reader VoiceOver works seamlessly with CZUR scanner.
+  
+- For Windows users:
+    - **Commands for Scanning**: There are already developed commands to initiate scanning without needing a screen reader.
+        - alt + k: rotate
+        - alt + y: cancel
+        - alt + u: reset
+        - alt + b: scan
+        - alt + p: print
+
+
+### Scanner Accesibility
+
+
+
 ## Configuration
 
 Modify the `watch_directory` variable in the script to specify the directory to monitor.
