@@ -72,6 +72,7 @@ repository.
 
 ### OBR Scanner
 
+
 Run the script:
 
    ```bash
@@ -85,6 +86,31 @@ otherwise it doesn't work
 - The **compare-documents** folder houses essential tools for comparing scanned documents with their original versions.     
 - This functionality enables users to evaluate the accuracy of the scanning process by identifying disparities between the scanned and original documents.     
 - For detailed instructions on utilizing these tools, please refer to the corresponding README within the [compare-documents](/compare-documents/README.md) folder.
+
+### Usage of the scanner
+
+Manual:
+
+1.	For scanning turn on the scanner by pressing the button on the back of the scanner. Make sure to turn on the light by pressing the button on the front right. 
+2.	If correctly connected to the pc, the program should recognize the scanner and show the camera view. 
+3.	By pressing the button scan it takes a picture of the paper. 
+4.	The doc should be saved in a folder called “input” . Check the date to make sure it is the right scan. You can also go directly to the folder from the program 
+
+
+For centralization: 
+- Open Box
+- Put the two blocks in the holes on the plate
+  ![image](https://github.com/paatisanchez/obr-scanner/assets/162608488/f3d61505-6c45-41a7-8cfd-22473bd29cea)
+![image](https://github.com/paatisanchez/obr-scanner/assets/162608488/d2cfe89b-2aa6-4b24-a93d-e9fe0e188419)
+
+- Choose appropriate plate for paper size 
+- Position the plate on the blocks  with the grooves
+  ![image](https://github.com/paatisanchez/obr-scanner/assets/162608488/f5f3dacc-a5d6-45c1-a6a4-9fa718ec8358)
+
+- Put paper on top
+  ![image](https://github.com/paatisanchez/obr-scanner/assets/162608488/66b0f671-26ea-4359-a010-60fe59cdb13a)
+
+- The paper should be centered
 
 ## Accesibility 
 
@@ -100,12 +126,7 @@ otherwise it doesn't work
         - alt + u: reset
         - alt + b: scan
         - alt + p: print
-
-
-### Scanner Accesibility
-
-
-
+        - 
 ## Configuration
 
 Modify the `watch_directory` variable in the script to specify the directory to monitor.
