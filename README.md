@@ -126,7 +126,7 @@ For centralization:
         - alt + u: reset
         - alt + b: scan
         - alt + p: print
-        - 
+          
 ## Configuration
 
 Modify the `watch_directory` variable in the script to specify the directory to monitor.
